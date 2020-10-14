@@ -1,0 +1,334 @@
+<!doctype html>
+<html lang="zxx" dir="ltr">
+
+<head>
+	<!-- Meta data -->
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Favicon -->
+	<link rel="icon" href="favicon.ico" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<!-- Title -->
+	<title>Gharabhada.com</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+	<!-- Bootstrap Css -->
+	<link href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/date-picker/spectrum.css" rel="stylesheet" />
+
+	<!-- Dashboard Css -->
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/custom1.css" rel="stylesheet" />
+
+	<!-- Font-awesome  Css -->
+	<link href="assets/css/icons.css" rel="stylesheet" />
+
+	<!--Horizontal Menu-->
+	<link href="assets/Horizontal2/Horizontal-menu/dropdown-effects/fade-down.css" rel="stylesheet" />
+	<link href="assets/Horizontal2/Horizontal-menu/horizontal.css" rel="stylesheet" />
+
+
+	<link href="assets/jquery-uislider/jquery-ui.css" rel="stylesheet">
+
+	<!--Select2 Plugin -->
+	<link href="assets/select2/select2.min.css" rel="stylesheet" />
+
+
+	<!-- Owl Theme css-->
+	<link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+
+	<!-- COLOR-SKINS -->
+	<link id="theme" rel="stylesheet" type="text/css" media="all" href="css/color.css" />
+	
+	<style>
+	
+	input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+</style>
+
+</head>
+
+<body>
+
+	<!--Loader-->
+	<div id="global-loader">
+		<img src="img/loader.svg" class="loader-img" alt="">
+	</div>
+
+	<!--Topbar-->
+	<div class="header-main">
+		<div class="top-bar">
+			<div class="container">
+				<div class="row tophdrdiv">
+					<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
+						<div class="top-bar-left d-flex">
+							<div class="clearfix">
+								<ul class="socials">
+									<li>
+										<a class="social-icon text-dark" href="#"><i class="fa fa-facebook"></i></a>
+									</li>
+									<li>
+										<a class="social-icon text-dark" href="#"><i class="fa fa-twitter"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
+						<div class="top-bar-right">
+							<ul class="custom">
+								<li>
+									<p class='hdrtext'>Call us at + 91 7077554475</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Duplex Houses Header -->
+		<div class="horizontal-header clearfix ">
+			<div class="container">
+				<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+				<span class="smllogo"><img src="img/logo.jpg" width="120" alt="" /></span>
+				<a href="tel:245-6325-3256" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- /Duplex Houses Header -->
+
+		<div class="horizontal-main bg-dark-transparent clearfix">
+			<div class="horizontal-mainwrapper container clearfix">
+				<div class="desktoplogo">
+					<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+				</div>
+				<div class="desktoplogo-1">
+					<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+				</div>
+				<!--Nav-->
+				<nav class="horizontalMenu clearfix d-md-flex">
+					<ul class="horizontalMenu-list">
+						<li aria-haspopup="true"><a href="index.html" >Home</a></li>
+						<li aria-haspopup="true"><a href="postreq.html" >Post Your Requirement</a></li>
+						<li aria-haspopup="true"><a href="login.html">My Account</a></li>
+						<li aria-haspopup="true"><a href="adpost.html" class="active btn-secondary ad-post active">For Owners</a></li>
+					</ul>
+				</nav>
+				<!--Nav-->
+			</div>
+		</div>
+	</div>
+	</div>
+
+
+	<!--Breadcrumb-->
+	<div class="border-bottom" style='padding: 1em;'>
+		<div class="container">
+
+			<div class='row'>
+				<div class="page-header">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item"><a href="#">Home</a></li>
+						<li class="breadcrumb-item"><a href="#">Restaurants</a></li>
+						<li class="breadcrumb-item active"><a href="#">Raipur</a></li>
+
+					</ol>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--/Breadcrumb-->
+
+	<!--Add listing-->
+	<section class="sptb" style='padding-top: 1rem;'>
+		<div class="container">
+			<div class="row">
+				<!--Left Side Content-->
+				<div class="col-xl-10 col-lg-10 col-md-12">
+					<form class="form-horizontal">
+						
+						<div class="form-group " id='errcntnr'>
+							<div class="row" id='errdiv'>
+								<p style='color:red' id='errmsg' style='display:none'></p>
+							</div>
+						</div>
+						
+						<div class="card sec sec0">
+							<div class="card-body">
+								<div class="" id="container">
+									<div class="form-group ">
+										<div class="row" id='usertype'>
+											<div class="col-md-3"></div>
+											<div class="col-md-3">
+												<input type="text" class="form-control text-center inputbttn bg-custom inplg navuserdiv" id="existuser"
+													name="owner" readonly value="Already a member">
+											</div>
+											<div class="col-md-3">
+												<input type="text" class="form-control text-center inputbttn bg-custom inplg navuserdiv" id="newuser"
+													name="agent" readonly value="New to Gharabhada">
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+			</div>
+		</div>
+	</section>
+	<!--/Add Listings-->
+
+	<!-- Newsletter-->
+	<section class="sptb bg-white border-top">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-xl-6 col-md-12">
+					<div class="sub-newsletter">
+						<h3 class="mb-2"><i class="fa fa-paper-plane-o mr-2"></i> Subscribe To Our Newsletter</h3>
+						<p class="mb-0">Get latest updates on trending properties in your city</p>
+					</div>
+				</div>
+				<div class="col-lg-5 col-xl-6 col-md-12">
+					<div class="input-group sub-input mt-1">
+						<input type="text" class="form-control input-lg " placeholder="Enter your Email">
+						<div class="input-group-append ">
+							<button type="button" class="btn btn-primary btn-lg br-tr-3  br-br-3">
+								Subscribe
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/Newsletter-->
+
+	<!--Footer Section-->
+	<section>
+		<footer class="">
+			<div class="footer-main">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-12">
+							<h6>Top Locations</h6>
+							<hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+							<ul class="list-unstyled mb-0">
+								<li><a href="javascript:;">Civil Lines</a></li>
+								<li><a href="javascript:;">Civil Lines</a></li>
+								<li><a href="javascript:;">Civil Lines</a></li>
+								<li><a href="javascript:;">Civil Lines</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-12">
+							<h6>Quick Links</h6>
+							<hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+							<ul class="list-unstyled mb-0">
+								<li><a href="javascript:;">About Us</a></li>
+								<li><a href="javascript:;">Terms & Conditions</a></li>
+								<li><a href="javascript:;">Privacy Policy</a></li>
+								<li><a href="javascript:;">Contact Us</a></li>
+							</ul>
+						</div>
+
+						<div class="col-lg-4 col-md-12">
+							<h6>Contact</h6>
+							<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#"><i class="fa fa-home mr-3 text-primary"></i>Chandrasekharpur Housing
+										board colony,Bhubaneswar</a>
+								</li>
+								<li>
+									<a href="#"><i
+											class="fa fa-envelope mr-3 text-primary"></i>helpgharabhada@gmail.com</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-phone mr-3 text-primary"></i> + 91 7077554475</a>
+								</li>
+							</ul>
+							<ul class="list-unstyled list-inline mt-3">
+								<li class="list-inline-item">
+									<a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-facebook bg-facebook"></i>
+									</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-twitter bg-info"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="p-0">
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+							Copyright © 2019 <a href="#" class="fs-14 text-primary">Gharabhada.com </a>All rights
+							reserved.
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</section>
+
+	<!-- Back to top -->
+	<a href="#top" id="back-to-top"><i class="fa fa-rocket"></i></a>
+
+	<!-- JQuery js-->
+	<script src="assets/js/jquery-3.2.1.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script src="assets/bootstrap-4.3.1-dist/js/popper.min.js"></script>
+	<script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+
+	<!--Horizontal Menu-->
+	<script src="assets/Horizontal2/Horizontal-menu/horizontal.js"></script>
+	<script src="assets/owl-carousel/owl.carousel.js"></script>
+	<script src="js/jquery.rating-stars.min.js"></script>
+
+	<!--JQuery TouchSwipe js-->
+	<script src="assets/jquery.touchSwipe.min.js"></script>
+
+	<!--Select2 js -->
+	<script src="assets/select2/select2.full.min.js"></script>
+	<script src="js/select2.js"></script>
+
+
+	<!-- Ion.RangeSlider -->
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+	<!-- sticky Js-->
+	<script src="js/sticky.js"></script>
+
+	<!-- Scripts Js-->
+	<script src="js/scripts2.js"></script>
+	<script src="assets/date-picker/spectrum.js"></script>
+	<script src="assets/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+	
+
+	<!-- Custom Js-->
+	<script src="assets/js/custom.js"></script>
+<script src="js/custom/postformval.js"></script>
+	<script src="js/custom/adpost.js"></script>
+
+	<!-- Map Detection APIs -->
+	
+		<script src="js/custom/map.js"></script>
+		<script async defer  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBmmNfp3JlN-9B0nkcv-UofIkiDwoJcGBk&callback=initMap">  </script>
+	
+
+</body>
+
+</html>

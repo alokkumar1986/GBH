@@ -1,0 +1,15 @@
+.amen-div{
+    background: #ecf0f5;
+    text-align: center;
+    padding: 1%;
+    color: #222d32;
+    font-size: 15px;
+    border-radius: 0.5rem;
+    font-weight: 400;
+	margin: 0.5rem;
+}
+.frm-txt{
+padding: 2rem;
+    font-size: 2rem;
+    color: #f49b1f;
+}

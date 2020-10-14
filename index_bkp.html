@@ -1,0 +1,679 @@
+<!doctype html>
+
+<html class="no-js" lang="zxx">
+
+<head>
+	<!-- Meta data -->
+	<meta charset="UTF-8">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Favicon -->
+	<link rel="icon" href="icon.png" type="image/x-icon" />
+	<link rel="shortcut icon" type="image/x-icon" href="icon.png" />
+
+	<!-- Title -->
+	<title>Gharabhada | Home</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+	<!-- Bootstrap Css -->
+	<link href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="assets/jquery-uislider/jquery-ui.css" rel="stylesheet">
+
+	<!-- Dashboard Css -->
+	<link href="css/style.css" rel="stylesheet" />
+	<link href="css/custom1.css" rel="stylesheet" />
+
+	<!-- Font-awesome  Css -->
+	<link href="css/icons.css" rel="stylesheet" />
+
+	<!--Horizontal Menu-->
+	<link href="assets/Horizontal2/Horizontal-menu/dropdown-effects/fade-down.css" rel="stylesheet" />
+	<link href="assets/Horizontal2/Horizontal-menu/horizontal.css" rel="stylesheet" />
+
+	<!--Select2 Plugin -->
+	<link href="assets/select2/select2.min.css" rel="stylesheet" />
+
+
+	<!-- Owl Theme css-->
+	<link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+
+	<!-- COLOR-SKINS -->
+	<link id="theme" rel="stylesheet" type="text/css" media="all" href="css/color.css" />
+
+</head>
+
+<body>
+
+	<!--Loader-->
+	<div id="global-loader">
+		<img src="img/loader.svg" class="loader-img" alt="">
+	</div>
+
+	<!--Topbar-->
+	<div class="header-main">
+		<div class="top-bar">
+			<div class="container">
+				<div class="row tophdrdiv">
+					<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
+						<div class="top-bar-left d-flex">
+							<div class="clearfix">
+								<ul class="socials">
+									<li>
+										<a class="social-icon text-dark" href="#"><i class="fa fa-facebook"></i></a>
+									</li>
+									<li>
+										<a class="social-icon text-dark" href="#"><i class="fa fa-twitter"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
+						<div class="top-bar-right">
+							<ul class="custom">
+								<li>
+									<p class='hdrtext'>Call us at + 91 7077554475</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Duplex Houses Header -->
+		<div class="horizontal-header clearfix ">
+			<div class="container">
+				<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+				<span class="smllogo"><img src="img/logo.jpg" width="120" alt="" /></span>
+				<a href="tel:245-6325-3256" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+			</div>
+		</div>
+		<!-- /Duplex Houses Header -->
+
+		<div class="horizontal-main bg-dark-transparent clearfix">
+			<div class="horizontal-mainwrapper container clearfix">
+				<div class="desktoplogo">
+					<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+				</div>
+				<div class="desktoplogo-1">
+					<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+				</div>
+				<!--Nav-->
+				<nav class="horizontalMenu clearfix d-md-flex">
+					<ul class="horizontalMenu-list">
+						<li aria-haspopup="true"><a href="index.html" class="active">Home</a></li>
+						<li aria-haspopup="true"><a href="postreq.html">Post Your Requirement</a></li>
+						<li aria-haspopup="true"><a href="login.html">My Account</a></li>
+						<li aria-haspopup="true"><a href="adpost.html" class="active btn-secondary ad-post">For Owners</a></li>
+					</ul>
+				</nav>
+				<!--Nav-->
+			</div>
+		</div>
+	</div>
+
+
+	<!--Sliders Section-->
+	<section>
+		<div class="col-md-12">
+			<div class="banner-1 pt-0 card cover-image spacing  pb-10 bg-background2"
+				data-image-src="img/banner/b1.jpg">
+				<div class="header-text mb-0">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
+								<div class="item-search-tabs">
+									<div class="item-search-menu text-center op_menu">
+										<ul class="nav">
+											<li class="opact optype">Rent</li>
+											<li class="optype">Buy</li>
+										</ul>
+									</div>
+									<div class="tab-content">
+										<div class="tab-pane active">
+											<div class="form row">
+												<div class="form-group  col-xl-3 col-lg-3 col-md-12 mb-0">
+													<select class="form-control srchsel" id='cityid'>
+														<option value='BBSR'>Bhubaneswar</option>
+														<option value='CTCK'>Cuttack</option>
+														<option value='PURI'>Puri</option>
+													</select>
+												</div>
+												<div class="form-group col-xl-8 col-lg-9  col-md-12 mb-0">
+													<div class="row no-gutters bg-white br-2">
+														<div
+															class="form-group autocomplete col-xl-8 col-lg-7 col-md-12 mb-0">
+															
+															<input type="text"
+																class="form-control border srchsel bg-white"
+																id="locsrch" placeholder="Location">
+															<span>
+																<i	class="fa fa-map-marker location-gps mr-1"></i>
+															</span>
+														</div>
+														<div class="col-xl-4 col-lg-5 col-md-12 mb-0">
+															<a href="#" class="btn btn-block btn-primary fs-14" id='submit_srch'><i
+																	class="fa fa-search"></i> Search Now</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /header-text -->
+			</div>
+		</div>
+	</section>
+	<!--Sliders Section-->
+
+	<!--Categories-->
+	<section class="categories">
+		<div class="container">
+			<div class="card mb-0 box-shadow-0">
+				<div class="card-body">
+					<div class="row">
+						<div class="col-lg-3 col-md-6 col-sm-6 d-catmb mb-4 mb-lg-0">
+							<div class="d-flex">
+								<div>
+									<span class="bg-primary-transparent icon-service1 text-primary">
+										<i class="fa fa-map-o"></i>
+									</span>
+								</div>
+								<div class="ml-4 mt-1">
+									<h3 class=" mb-0 font-weight-bold">1200+</h3>
+									<p class="mb-0 text-muted">Properties</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 d-catmb mb-4 mb-lg-0">
+							<div class="d-flex">
+								<div>
+									<span class="bg-secondary-transparent icon-service1 text-secondary">
+										<i class="fa fa-home"></i>
+									</span>
+								</div>
+								<div class="ml-4 mt-1">
+									<h3 class=" mb-0 font-weight-bold">500+</h3>
+									<p class="mb-0 text-muted">Commercial Spaces</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 d-catmb mb-4 mb-sm-0">
+							<div class="d-flex">
+								<div>
+									<span class="bg-warning-transparent icon-service1 text-warning">
+										<i class="fa fa-object-group"></i>
+									</span>
+								</div>
+								<div class="ml-4 mt-1">
+									<h3 class=" mb-0 font-weight-bold">1089</h3>
+									<p class="mb-0 text-muted">Residential</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-3 col-md-6 col-sm-6 ">
+							<div class="d-flex">
+								<div>
+									<span class="bg-info-transparent icon-service1 text-info">
+										<i class="fa fa-building-o"></i>
+									</span>
+								</div>
+								<div class="ml-4 mt-1">
+									<h3 class=" mb-0 font-weight-bold ">400+</h3>
+									<p class="mb-0 text-muted">Office Spaces</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Categories-->
+
+	<!--Featured Restaurants-->
+	<section class="sptb">
+		<div class="container">
+			<div class="section-title center-block text-center">
+				<h2>Featured Properties</h2>
+				<p>We loved these properties and we are sure you would too</p>
+			</div>
+			<div id="myCarousel1" class="owl-carousel owl-carousel-icons2">
+			<!--
+				<div class="item">
+					<div class="card mb-0">
+						<div class="power-ribbon power-ribbon-top-left text-warning"><span class="bg-warning"><i
+									class="fa fa-bolt"></i></span></div>
+						<div class="item-card2-img">
+							<a href="propdetails.html"></a>
+							<img src="img/banner/b2.jpg" alt="img" class="cover-image">
+							<div class="tag-text">
+								<span class="bg-custom tag-option">For Sale </span>
+							</div>
+						</div>
+
+						<div class="card-body">
+							<div class="item-card2">
+								<div class="item-card2-text">
+									<p class="ptitle text-dark">Ranga Sai Nilayam </p>
+									<p class="mb-2"><i class="fa fa-map-marker text-muted mr-1"></i> Chandrasekharpur,
+										Bhubaneswar </p>
+									<h5 class="font-weight-bold mb-3"><i class='fa fa-rupee mr-1'></i>12,000 <span
+											class="fs-12  font-weight-normal">Per Month</span></h5>
+								</div>
+								<ul class="item-card2-list">
+									<li>
+										<p class='pfooter mb-0'><i class="fa fa-arrows-alt text-muted mr-1"></i> 1200
+											Sqft</p>
+									</li>
+									<li>
+										<p class="pfooter mb-0"><i class="fa fa-bed text-muted mr-1"></i> 3 Beds</p>
+									</li>
+									<li>
+										<p class="pfooter mb-0"><i class="fa fa-bath text-muted mr-1"></i> 2 Bath</p>
+									</li>
+									<li>
+										<p class="pfooter mb-0"><i class="fa fa-car text-muted mr-1"></i> 1 Car</p>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="card-footer">
+							<div class="footerimg d-flex mt-0 mb-0">
+								<div class="d-flex footerimg-l mb-0">
+									<h5 class="time-title text-muted p-0 leading-normal mt-1 mb-0">Owner<i
+											class="si si-check text-success fs-12 ml-1" data-toggle="tooltip"
+											data-placement="top" title="verified"></i></h5>
+								</div>
+								<div class="mt-2 footerimg-r ml-auto">
+									<small class="text-muted">1 day ago</small>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				-->
+			</div>
+		</div>
+	</section>
+	<!--Latest Ads-->
+
+	<section class="sptb bg-white">
+		<div class="container">
+			<div class="section-title center-block text-center">
+				<h2>Categories</h2>
+				<p>Discover based on your requirement</p>
+			</div>
+			<div class="row">
+				<div class="col-sm-12 col-lg-3 col-md-4 propcat" id='RES'>
+					<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<div class="card text-center overflow-hidden">
+									<div class="card-img">
+										<img src="img/banner/c1.jpeg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text">
+										<h4 class="mb-0">Residential</h4>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-3 col-md-4 propcat" id='COM'>
+					<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<div class="card text-center overflow-hidden">
+									<div class="card-img">
+										<img src="img/banner/c2.jpg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text">
+										<h4 class="mb-0">Commercial Space</h4>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-3 col-md-4 propcat" id='OFFC'>
+					<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<div class="card text-center overflow-hidden">
+									<div class="card-img">
+										<img src="img/banner/c4.jpg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text">
+										<h4 class="mb-0">Office Space</h4>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+				<div class="col-sm-12 col-lg-3 col-md-4 propcat" id='KMP'>
+					<div class="item-card overflow-hidden">
+							<div class="item-card-desc">
+								<div class="card text-center overflow-hidden">
+									<div class="card-img">
+										<img src="img/banner/c3.jpg" alt="img" class="cover-image">
+									</div>
+									<div class="item-card-text">
+										<h4 class="mb-0">Kalyan Mandap</h4>
+									</div>
+								</div>
+							</div>
+					</div>
+				</div>
+
+
+				<!--
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+						<div class="card bg-card-light">
+							<div class="card-body">
+								<div class="cat-item text-center">
+									<a href="col-left.html"></a>
+									<div class="cat-img">
+										<img src="../assets/images/svgs/realestate/balcony.svg" alt="img">
+									</div>
+									<div class="cat-desc">
+										<h5 class="mb-1">Table Reservation</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+						<div class="card bg-card-light">
+							<div class="card-body">
+								<div class="cat-item text-center">
+									<a href="col-left.html"></a>
+									<div class="cat-img">
+										<img src="../assets/images/svgs/realestate/appartment.svg" alt="img">
+									</div>
+									<div class="cat-desc">
+										<h5 class="mb-1">Resort Booking</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-3 col-lg-3 col-md-3 col-sm-6">
+						<div class="card bg-card-light">
+							<div class="card-body">
+								<div class="cat-item text-center">
+									<a href="col-left.html"></a>
+									<div class="cat-img">
+										<img src="../assets/images/svgs/realestate/beach-house.svg" alt="img">
+									</div>
+									<div class="cat-desc">
+										<h5 class="mb-1">Book Events</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>-->
+			</div>
+		</div>
+	</section>
+	<!--Categories-->
+
+	<!--Blogs-->
+	<section class="sptb">
+		<div class="container">
+			<div class="section-title center-block text-center">
+				<h2>What Makes Us The Preferred Choice ?</h2>
+				<p>Hassle-free reservations and exclusive offers</p>
+			</div>
+			<div class="row">
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="">
+						<div class="mb-lg-0 mb-5">
+							<div class="service-card text-center">
+								<div class="bg-white icon-bg  icon-service about">
+									<i class="fa fa-binoculars text-primary"></i>
+								</div>
+								<div class="servic-data mt-3">
+									<h4 class="font-weight-semibold mb-2">Discover Properties</h4>
+									<p class="text-muted mb-0">Explore properties with best prices, locations reviews
+										besides much more.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="">
+						<div class="mb-sm-0 mb-5">
+							<div class="service-card text-center">
+								<div class="bg-white icon-bg  icon-service text-purple about">
+									<i class="fa  fa-smile-o text-secondary"></i>
+								</div>
+								<div class="servic-data mt-3">
+									<h4 class="font-weight-semibold mb-2">Maximum Choices</h4>
+									<p class="text-muted mb-0">We provide maximum range of properties to suit your needs
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="">
+						<div class="mb-sm-0 mb-5">
+							<div class="service-card text-center">
+								<div class="bg-white icon-bg  icon-service text-purple about">
+									<i class="fa fa-gift text-success"></i>
+								</div>
+								<div class="servic-data mt-3">
+									<h4 class="font-weight-semibold mb-2">Exclusive Offers</h4>
+									<p class="text-muted mb-0">Choose from our range of exclusive offers </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-lg-3 col-md-6 col-sm-6">
+					<div class="">
+						<div class="">
+							<div class="service-card text-center">
+								<div class="bg-white icon-bg  icon-service text-purple about">
+									<i class="fa fa-gratipay text-info"></i>
+								</div>
+								<div class="servic-data mt-3">
+									<h4 class="font-weight-semibold mb-2">Trust Assurance</h4>
+									<p class="text-muted mb-0">Assured quality checks of every property posted and
+										genuine listing</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Blogs-->
+
+
+
+	<!--Testimonials-->
+	<section class="sptb bg-white">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="">
+						<div id="myCarousel" class="owl-carousel testimonial-owl-carousel">
+							<div class="item text-center">
+								<div class="card-body p-0">
+									<div class="row">
+										<div class="col-xl-8 col-md-12 d-block mx-auto">
+											<div class="">
+												<p>
+													<i class="fa fa-quote-left"></i>
+
+													I found a good house for rent and the process was smooth. The staff
+													were courteous and the customer care was helpful barring one
+													incident.
+													The deposit they ask from tenants is very reasonable. Owners have
+													the habit of demanding a deposit of atleast 10 months.
+													With gharabhada it's only two months which was very reasonable. The
+													service requests also were answered to promptly.
+
+												</p>
+												<div class="testimonia-data">
+													<h4 class="fs-20 mb-1">Himanshu Singh</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item text-center">
+								<div class="card-body p-0">
+									<div class="row">
+										<div class="col-xl-8 col-md-12 d-block mx-auto">
+											<div class="">
+												<p>
+													<i class="fa fa-quote-left"></i>
+													I found a good house for rent and the process was smooth. The staff
+													were courteous and the customer care was helpful barring one
+													incident.
+													The deposit they ask from tenants is very reasonable. Owners have
+													the habit of demanding a deposit of atleast 10 months.
+													With gharabhada it's only two months which was very reasonable. The
+													service requests also were answered to promptly.
+												</p>
+												<div class="testimonia-data">
+													<h4 class="fs-20 mb-1">Heather Bell</h4>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--/Testimonials-->
+
+
+	<!--Footer Section-->
+	<section>
+		<footer class="">
+			<div class="footer-main">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-4 col-md-12">
+							<h6>Top Locations</h6>
+							<hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+							<ul class="list-unstyled mb-0">
+								<li><a href="javascript:;">Civil Lines</a></li>
+								<li><a href="javascript:;">Civil Lines</a></li>
+								<li><a href="javascript:;">Civil Lines</a></li>
+								<li><a href="javascript:;">Civil Lines</a></li>
+							</ul>
+						</div>
+						<div class="col-lg-4 col-md-12">
+							<h6>Quick Links</h6>
+							<hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+							<ul class="list-unstyled mb-0">
+								<li><a href="javascript:;">About Us</a></li>
+								<li><a href="javascript:;">Terms & Conditions</a></li>
+								<li><a href="javascript:;">Privacy Policy</a></li>
+								<li><a href="javascript:;">Contact Us</a></li>
+							</ul>
+						</div>
+
+						<div class="col-lg-4 col-md-12">
+							<h6>Contact</h6>
+							<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+							<ul class="list-unstyled mb-0">
+								<li>
+									<a href="#"><i class="fa fa-home mr-3 text-primary"></i>Chandrasekharpur Housing
+										board colony,Bhubaneswar</a>
+								</li>
+								<li>
+									<a href="#"><i
+											class="fa fa-envelope mr-3 text-primary"></i>helpgharabhada@gmail.com</a>
+								</li>
+								<li>
+									<a href="#"><i class="fa fa-phone mr-3 text-primary"></i> + 91 7077554475</a>
+								</li>
+							</ul>
+							<ul class="list-unstyled list-inline mt-3">
+								<li class="list-inline-item">
+									<a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-facebook bg-facebook"></i>
+									</a>
+								</li>
+								<li class="list-inline-item">
+									<a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-twitter bg-info"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="p-0">
+				<div class="container">
+					<div class="row d-flex">
+						<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+							Copyright © 2019 <a href="#" class="fs-14 text-primary">Gharabhada.com </a>All rights
+							reserved.
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</section>
+
+
+	<!-- Back to top -->
+	<a href="#top" id="back-to-top"><i class="fa fa-rocket"></i></a>
+
+	<!-- JQuery js-->
+	<script src="js/jquery-3.2.1.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script src="assets/bootstrap-4.3.1-dist/js/popper.min.js"></script>
+	<script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+
+	<!--Owl Carousel js -->
+	<script src="assets/owl-carousel/owl.carousel.js"></script>
+
+	<!--Horizontal Menu-->
+	<script src="assets/Horizontal2/Horizontal-menu/horizontal.js"></script>
+
+	<!--JQuery TouchSwipe js-->
+	<script src="js/jquery.touchSwipe.min.js"></script>
+
+
+	<!-- sticky Js-->
+	<script src="js/sticky.js"></script>
+
+
+	<!-- Swipe Js-->
+	<script src="js/swipe.js"></script>
+
+	<!-- Scripts Js-->
+	<script src="js/scripts2.js"></script>
+
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<!-- Custom Js-->
+	<script src="js/custom.js"></script>
+	<script src="js/custom/searchautocomplete.js"></script>
+	<script src="js/custom/home.js"></script>
+
+</body>
+
+</html>

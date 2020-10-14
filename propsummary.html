@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="zxx" dir="ltr">
+	<head>
+		<meta charset="UTF-8">
+		<meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- Favicon -->
+		<link rel="icon" href="favicon.ico" type="image/x-icon"/>
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+		<!-- Title -->
+		<title>Gharabhada.com</title>
+		
+		
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="assets/bootstrap-4.3.1-dist/css/bootstrap.min.css" rel="stylesheet" />
+
+		<!-- Dashboard Css -->
+		<link href="css/style.css" rel="stylesheet" />
+		<link href="css/custom1.css" rel="stylesheet" />
+
+		<!-- Font-awesome  Css -->
+		<link href="assets/css/icons.css" rel="stylesheet" />
+
+		<!--Horizontal Menu-->
+		<link href="assets/Horizontal2/Horizontal-menu/dropdown-effects/fade-down.css" rel="stylesheet" />
+		<link href="assets/Horizontal2/Horizontal-menu/horizontal.css" rel="stylesheet" />
+
+		<link href="assets/jquery-uislider/jquery-ui.css" rel="stylesheet">
+
+		<!--Select2 Plugin -->
+		<link href="assets/select2/select2.min.css" rel="stylesheet" />
+
+		<!-- Owl Theme css-->
+		<link href="assets/owl-carousel/owl.carousel.css" rel="stylesheet" />
+
+		<!-- COLOR-SKINS -->
+		<link id="theme" rel="stylesheet" type="text/css" media="all" href="css/color.css" />
+
+	</head>
+
+	<body>
+
+		<!--Loader-->
+		<div id="global-loader">
+			<img src="img/loader.svg" class="loader-img" alt="">
+		</div>
+
+		<!--Topbar-->
+		<div class="header-main">
+		<div class="top-bar">
+			<div class="container">
+				<div class="row tophdrdiv">
+					<div class="col-xl-8 col-lg-8 col-sm-4 col-7">
+						<div class="top-bar-left d-flex">
+							<div class="clearfix">
+								<ul class="socials">
+									<li>
+										<a class="social-icon text-dark" href="#"><i class="fa fa-facebook"></i></a>
+									</li>
+									<li>
+										<a class="social-icon text-dark" href="#"><i class="fa fa-twitter"></i></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-xl-4 col-lg-4 col-sm-8 col-5">
+						<div class="top-bar-right">
+							<ul class="custom">
+								<li>
+									<p class='hdrtext'>Call us at + 91 7077554475</p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+			<!-- Duplex Houses Header -->
+			<div class="horizontal-header clearfix ">
+				<div class="container">
+					<a id="horizontal-navtoggle" class="animated-arrow"><span></span></a>
+					<span class="smllogo"><img src="img/logo.jpg" width="120" alt=""/></span>
+					<a href="tel:245-6325-3256" class="callusbtn"><i class="fa fa-phone" aria-hidden="true"></i></a>
+				</div>
+			</div>
+			<!-- /Duplex Houses Header -->
+
+			<div class="horizontal-main bg-dark-transparent clearfix">
+				<div class="horizontal-mainwrapper container clearfix">
+					<div class="desktoplogo">
+						<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+					</div>
+					<div class="desktoplogo-1">
+						<a href="index.html"><img src="img/logo.jpg" alt=""></a>
+					</div>
+					<!--Nav-->
+					<nav class="horizontalMenu clearfix d-md-flex">
+						<ul class="horizontalMenu-list">
+						<li aria-haspopup="true"><a href="index.html" class="active">Home</a></li>
+						<li aria-haspopup="true"><a href="postreq.html">Post Your Requirement</a></li>
+						<li aria-haspopup="true"><a href="login.html">My Account</a></li>
+						<li aria-haspopup="true"><a href="adpost.html" class="active btn-secondary ad-post">For Owners</a></li>
+					</ul>
+					</nav>
+					<!--Nav-->
+				</div>
+			</div>
+		</div>
+		</div>
+		
+		
+		<!--Breadcrumb-->
+		<div class="border-bottom" style='padding: 1em;'>
+			<div class="container">
+				
+				<div class='row'>
+					<div class="page-header">
+						<ol class="breadcrumb">
+							<li class="breadcrumb-item"><a href="#">Home</a></li>
+							<li class="breadcrumb-item"><a href="#">Restaurants</a></li>
+							<li class="breadcrumb-item active"><a href="#">Raipur</a></li>
+
+						</ol>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--/Breadcrumb-->
+
+		<!--Add listing-->
+			<section>
+		<div class="col-md-12">
+			<div class="banner-1 pt-0 card cover-image spacing  pb-10 bg-background2"
+				data-image-src="img/banner/b1.jpg">
+				<div class="header-text mb-0">
+					<div class="container">
+
+						<div class="row">
+							<div class="col-xl-10 col-lg-12 col-md-12 d-block mx-auto">
+								<div class="item-search-tabs">
+									<div class="tab-content">
+										<div class="tab-pane active">
+											<div class="form row">
+												<div class="form-group  col-xl-3 col-lg-3 col-md-12 mb-0">
+													<select class="form-control srchsel" id='cityid'>
+														<option value='BBSR'>Bhubaneswar</option>
+														<option value='CTCK'>Cuttack</option>
+														<option value='PURI'>Puri</option>
+													</select>
+												</div>
+												<div class="form-group col-xl-8 col-lg-9  col-md-12 mb-0">
+													<div class="row no-gutters bg-white br-2">
+														<div
+															class="form-group autocomplete col-xl-8 col-lg-7 col-md-12 mb-0">
+															
+															<input type="text"
+																class="form-control border srchsel bg-white"
+																id="locsrch" placeholder="Location">
+															<span>
+																<i	class="fa fa-map-marker location-gps mr-1"></i>
+															</span>
+														</div>
+														<div class="col-xl-4 col-lg-5 col-md-12 mb-0">
+															<a href="#" class="btn btn-block btn-primary fs-14" id='submit_srch'><i
+																	class="fa fa-search"></i> Search Now</a>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div><!-- /header-text -->
+			</div>
+		</div>
+	</section>
+	
+		
+		<section class="sptb" style='    padding-top: 1rem;'>
+			<div class="container">
+				<div class="row">
+					<!--Left Side Content-->
+					<div class="col-xl-3 col-lg-4 col-md-12">
+						
+						<div class="card">
+							<div class="card-header">
+								<h4 class="card-title h4custom">Property Type</h4>
+							</div>
+							<div class="card-body">
+								<div id="propcatfltr">
+									<div class="filter-product-checkboxs">
+										<label class="custom-control custom-checkbox mb-3">
+											<input type="checkbox" class="custom-control-input catfltr" name="APT" value="APT">
+											<span class="custom-control-label">
+												<span class="text-dark">Apartment</span>
+											</span>
+										</label>
+										<label class="custom-control custom-checkbox mb-3">
+											<input type="checkbox" class="custom-control-input catfltr" name="IDH" value="IDH">
+											<span class="custom-control-label">
+												<span class="text-dark">Independent House</span>
+											</span>
+										</label>
+										<label class="custom-control custom-checkbox mb-3">
+											<input type="checkbox" class="custom-control-input catfltr" name="IDF" value="IDF">
+											<span class="custom-control-label">
+												<span class="text-dark">Independent Floor</span>
+											</span>
+										</label>
+									</div>
+								</div>
+							</div>
+							<div class="card-header border-top">
+								<h3 class="card-title h4custom">Price Range</h3>
+							</div>
+							<div class="card-body">
+								<p>
+								  <label for="amount"></label>
+								  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+								</p>
+								<div id="slider-range"></div>
+							</div>
+							
+							<div class="card-header border-top">
+								<h3 class="card-title h4custom">Posted By</h3>
+							</div>
+							
+							<div class="card-body">
+								<div class="filter-product-checkboxs">
+									<label class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input postbyfltr" name="Owner" value="Owner">
+										<span class="custom-control-label">
+											Owner
+										</span>
+									</label>
+									<label class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input postbyfltr" name="Agent" value="Agent">
+										<span class="custom-control-label">
+											Agent
+										</span>
+									</label>
+								</div>
+							</div>
+							
+							<div class="card-header border-top">
+								<h3 class="card-title h4custom">BHK</h3>
+							</div>
+							<div class="card-body">
+								<div class="filter-product-checkboxs">
+									<label class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input bhkfltr" name="bhk" value="1">
+										<span class="custom-control-label">
+											1 BHK
+										</span>
+									</label>
+									<label class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input bhkfltr" name="checkbox2" value="2">
+										<span class="custom-control-label">
+											2 BHK
+										</span>
+									</label>
+									<label class="custom-control custom-checkbox mb-0">
+										<input type="checkbox" class="custom-control-input bhkfltr" name="checkbox3" value="3">
+										<span class="custom-control-label">
+											3 BHK
+										</span>
+									</label>
+								</div>
+							</div>
+							
+							<div class="card-header border-top">
+								<h3 class="card-title h4custom">Furnishing Type</h3>
+							</div>
+							<div class="card-body">
+								<div class="filter-product-checkboxs">
+									<label class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input furntypefltr" name="checkbox1" value="Furnished">
+										<span class="custom-control-label">
+											Fully Furnished
+										</span>
+									</label>
+									<label class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input furntypefltr" name="checkbox1" value="Semi Furnished">
+										<span class="custom-control-label">
+											Semi Furnished
+										</span>
+									</label>
+									<label class="custom-control custom-checkbox mb-2">
+										<input type="checkbox" class="custom-control-input furntypefltr" name="checkbox2" value="Unfurnished">
+										<span class="custom-control-label">
+											Unfurnished
+										</span>
+									</label>
+									
+								</div>
+							</div>
+							
+							
+							
+							<div class="card-footer">
+								<button class="btn btn-primary btn-block" id='applyfltr'>Apply Filter</button>
+							</div>
+						</div>
+						
+					</div>
+					<!--/Left Side Content-->
+
+					<div class="col-xl-9 col-lg-8 col-md-12">
+						<!--Add lists-->
+						<div class=" mb-lg-0">
+							<div class="">
+								<div class="item2-gl ">
+									<div class=" mb-0">
+										<div class="">
+											<div class="p-5 bg-white item2-gl-nav d-flex">
+												<h6 class="mb-0 mt-2">Showing 1 to 10 of 30 entries</h6>
+												<ul class="nav item2-gl-menu ml-auto">
+													
+												</ul>
+												<div class="d-flex">
+													<label class="mr-2 mt-1 mb-sm-1">Sort By:</label>
+													<select name="item" class="form-control select-sm w-75">
+														<option value="1">Latest</option>
+														<option value="2">Oldest</option>
+														<option value="3">Price:Low-to-High</option>
+														<option value="5">Price:Hight-to-Low</option>
+													</select>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="tab-content">
+										<div class="tab-pane active" id="tab-11">
+										<!--
+											<div class="card overflow-hidden">
+												<div class="d-md-flex">
+													<div class="item-card9-img">
+														<div class="arrow-ribbon bg-primary">Premium</div>
+														<div class="item-card9-imgs">
+															<a href="col-left.html"></a>
+															<img src="img/banner/b3.jpg" alt="img" class="cover-image">
+														</div>
+													</div>
+													<div class="card border-0 mb-0">
+														<div class="card-body ">
+															<div class="item-card9">
+																<a href="col-left.html" class="text-muted mr-4"><i class="fa fa-tag mr-1"></i> Villa</a>
+																<a href="col-left.html" class="text-dark"><h4 class="font-weight-bold mt-1">2BHK flat </h4></a>
+																<a href="col-left.html" class="text-dark"><h4 class="font-weight-bold mt-1">
+																	<i class="fa fa-inr inrcust "></i>12000</h4>
+																</a>
+																<div class="mb-2">
+																	<a href="#" class="icons text-muted mr-4"><i class="fa fa-arrows-alt text-muted mr-1"></i> 950 Sqft</a>
+																	<a href="#" class="icons text-muted mr-4"><i class="fa fa-bed text-muted mr-1"></i> 4 Beds</a>
+																	<a href="#" class="icons text-muted mr-4"><i class="fa fa-bath text-muted mr-1"></i> 3 Bath</a>
+																	<a href="#" class="icons text-muted mr-4"><i class="fa fa-car text-muted mr-1"></i> 2 Car</a>
+																</div>
+																
+															</div>
+														</div>
+														<div class="card-footer pt-4 pb-4">
+															<div class="item-card9-footer d-flex">
+																<div class="item-card9-cost">
+																	<p class="mr-4 pfooter"><i class="fa fa-map-marker text-muted mr-1"></i>Bhubaneswar</p>
+																	<p class="pfooter"><i class="fa fa-user text-muted mr-1"></i> Owner</p>
+																</div>
+																<div class="ml-auto">
+																	<p class="pfooter"><i class="fa fa-calendar-o text-muted mr-1"></i> 2 days ago</p>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											-->
+										</div>
+									</div>
+								</div>
+								<!--
+								<div class="center-block text-center">
+									<ul class="pagination mb-0">
+										<li class="page-item page-prev disabled">
+											<a class="page-link" href="#" tabindex="-1">Prev</a>
+										</li>
+										<li class="page-item active"><a class="page-link" href="#">1</a></li>
+										<li class="page-item"><a class="page-link" href="#">2</a></li>
+										<li class="page-item"><a class="page-link" href="#">3</a></li>
+										<li class="page-item page-next">
+											<a class="page-link" href="#">Next</a>
+										</li>
+									</ul>
+								</div>
+								-->
+							</div>
+						</div>
+						<!--/Add lists-->
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Add Listings-->
+
+		<!-- Newsletter-->
+		<section class="sptb bg-white border-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-7 col-xl-6 col-md-12">
+						<div class="sub-newsletter">
+							<h3 class="mb-2"><i class="fa fa-paper-plane-o mr-2"></i> Subscribe To Our Newsletter</h3>
+							<p class="mb-0">Get latest updates on trending properties in your city</p>
+						</div>
+					</div>
+					<div class="col-lg-5 col-xl-6 col-md-12">
+						<div class="input-group sub-input mt-1">
+							<input type="text" class="form-control input-lg " placeholder="Enter your Email">
+							<div class="input-group-append ">
+								<button type="button" class="btn btn-primary btn-lg br-tr-3  br-br-3">
+									Subscribe
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--/Newsletter-->
+
+		<!--Footer Section-->
+		<section>
+			<footer class="">
+				<div class="footer-main">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-md-12">
+								<h6>Top Locations</h6>
+								<hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li><a href="javascript:;">Civil Lines</a></li>
+									<li><a href="javascript:;">Civil Lines</a></li>
+									<li><a href="javascript:;">Civil Lines</a></li>
+									<li><a href="javascript:;">Civil Lines</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-4 col-md-12">
+								<h6>Quick Links</h6>
+								 <hr class="deep-purple text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li><a href="javascript:;">About Us</a></li>
+									<li><a href="javascript:;">Terms & Conditions</a></li>
+									<li><a href="javascript:;">Privacy Policy</a></li>
+									<li><a href="javascript:;">Contact Us</a></li>
+								</ul>
+							</div>
+
+							<div class="col-lg-4 col-md-12">
+								<h6>Contact</h6>
+								<hr class="deep-purple  text-primary accent-2 mb-4 mt-0 d-inline-block mx-auto">
+								<ul class="list-unstyled mb-0">
+									<li>
+										<a href="#"><i class="fa fa-home mr-3 text-primary"></i>Chandrasekharpur Housing board colony,Bhubaneswar</a>
+									</li>
+									<li>
+										<a href="#"><i class="fa fa-envelope mr-3 text-primary"></i>helpgharabhada@gmail.com</a></li>
+									<li>
+										<a href="#"><i class="fa fa-phone mr-3 text-primary"></i> + 91 7077554475</a>
+									</li>
+								</ul>
+								<ul class="list-unstyled list-inline mt-3">
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-facebook bg-facebook"></i>
+									  </a>
+									</li>
+									<li class="list-inline-item">
+									  <a class="btn-floating btn-sm rgba-white-slight mx-1 waves-effect waves-light">
+										<i class="fa fa-twitter bg-info"></i>
+									  </a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="p-0">
+					<div class="container">
+						<div class="row d-flex">
+							<div class="col-lg-12 col-sm-12 mt-3 mb-3 text-center ">
+								Copyright © 2019 <a href="#" class="fs-14 text-primary">Gharabhada.com </a>All rights reserved.
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</section>
+
+		<!-- Back to top -->
+		<a href="#top" id="back-to-top" ><i class="fa fa-rocket"></i></a>
+
+		<!-- JQuery js-->
+		<script src="assets/js/jquery-3.2.1.min.js"></script>
+
+		<!-- Bootstrap js -->
+		<script src="assets/bootstrap-4.3.1-dist/js/popper.min.js"></script>
+		<script src="assets/bootstrap-4.3.1-dist/js/bootstrap.min.js"></script>
+
+
+		<!-- Circle Progress Js-->
+		<script src="assets/js/vendors/circle-progress.min.js"></script>
+
+		<!--Horizontal Menu-->
+		<script src="assets/Horizontal2/Horizontal-menu/horizontal.js"></script>
+		<script src="assets/owl-carousel/owl.carousel.js"></script>
+		<script src="js/jquery.rating-stars.min.js"></script>
+
+		<!--JQuery TouchSwipe js-->
+		<script src="../assets/js/jquery.touchSwipe.min.js"></script>
+
+		<!--Select2 js -->
+		<script src="assets/select2/select2.full.min.js"></script>
+	<script src="js/select2.js"></script>
+
+
+		<!-- Ion.RangeSlider -->
+		<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+		<!-- sticky Js-->
+		<script src="js/sticky.js"></script>
+
+		<!-- Custom scroll bar Js-->
+		<script src="../assets/plugins/scroll-bar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+
+		<!-- Scripts Js-->
+		<script src="js/scripts2.js"></script>
+
+		<!-- Custom Js-->
+		<script src="assets/js/custom.js"></script>
+		<script src="js/custom/propsummary.js"></script>
+		
+		<script>
+  $( function() {
+    $( "#slider-range" ).slider({
+      range: true,
+      min: 1500,
+      max: 50000,
+	  step: 500,
+      values: [ 1500, 30000 ],
+      slide: function( event, ui ) {
+        $( "#amount" ).val( "INR " + ui.values[ 0 ] + " - INR " + ui.values[ 1 ] );
+      }
+    });
+    $( "#amount" ).val( "INR " + $( "#slider-range" ).slider( "values", 0 ) +
+      " - INR " + $( "#slider-range" ).slider( "values", 1 ) );
+  } );
+  </script>
+
+	</body>
+</html>
